@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite 2">
+	<listeners>
+		<listener class-name="listeners.AnnotationTransformer" />
+	</listeners>
+	<test name="Vendor Module">
+		<parameter name="browserType" value="chrome" />
+		<classes>			
+			 <class name="com.kisaan.vendor.testcases.TC_01_Vendor_SignUp"/> 
+			<class name="com.kisaan.vendor.testcases.TC_02_Vendor_SignIn"/>
+			<class name="com.kisaan.vendor.testcases.TC_03_VendorDashboardAccordion"/>
+			<class name="com.kisaan.vendor.testcases.TC_04_EditVendorProfile"/>
+			<class name="com.kisaan.vendor.testcases.TC_05_VendorChangeExistingPassword"/>
+			<class name="com.kisaan.vendor.testcases.TC_06_Vendor_AddNewProduct"/>
+			<class name="com.kisaan.vendor.testcases.TC_07_Vendor_EditProduct"/>
+			<class name="com.kisaan.vendor.testcases.TC_08_Vendor_ChangeProductStatus"/>
+			 <class name="com.kisaan.vendor.testcases.TC_09_Vendor_RemoveProduct"/> 
+			 <class name="com.kisaan.vendor.testcases.TC_10_Vendor_AddNew_SearchProduct"/>  
+			 <class name="com.kisaan.vendor.testcases.TC_11_Vendor_WithdrawNow_Paypal"/>  
+			 <class name="com.kisaan.vendor.testcases.TC_12_Vendor_WithdrawNow_Bank"/>   		 					
+		</classes>
+	</test>
+</suite>

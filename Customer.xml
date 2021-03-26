@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite 1">
+	<listeners>
+		<listener class-name="listeners.AnnotationTransformer" />
+	</listeners>
+	<test name="Customer Module">
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="com.kisaan.customer.testcases.TC_01_Customer_SignUp"/> 
+		 	<class name="com.kisaan.customer.testcases.TC_02_Customer_SignIn"/>
+			<class name="com.kisaan.customer.testcases.TC_03_Customer_SearchProduct"/>
+			<class name="com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart"/>  	 					
+			<class name="com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart"/>
+	 		<class name="com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity"/>
+			<class name="com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout"/>
+			<class name="com.kisaan.customer.testcases.TC_08_EditAddress"/>
+			<class name="com.kisaan.customer.testcases.TC_09_ChangeExistingPassword"/>
+			<class name="com.kisaan.customer.testcases.TC_10_FilterProducts_Categories"/> 
+			<class name="com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts"/>
+			<class name="com.kisaan.customer.testcases.TC_12_Customer_SignOut"/>
+			<class name="com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link"/>
+			<class name="com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link"/>
+			<class name="com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link"/>
+		    <class name="com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link"/>	
+		     <class name="com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout"/>
+		    <class name="com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout"/>
+		    <class name="com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout"/>
+		    <class name="com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout"/>
+		    <class name="com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress"/>		  							 					
+		</classes>
+	</test>
+</suite>

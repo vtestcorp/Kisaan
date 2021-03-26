@@ -1,0 +1,34 @@
+{
+	"Address Type": "Pick Up",
+	"Confirmation Text": "Your Order Has been Confirmed.",
+	"Products": [
+		{
+			"quantity": 5,
+			"productName": "Chicken"
+		},
+		{
+			"quantity": 9,
+			"productName": "Potato"
+		},
+		{
+			"quantity": 6,
+			"productName": "Onion"
+		}
+	],
+	"Email": "punjab.weproinc@gmail.com",
+	"Postal Code": "1234",
+	"Address": "23 downtown road",
+	"Full Name": "Punjab",
+	"Quantity": "7",
+	"City": "kansas",
+	"Subject":"Subject added",
+	"Message":"Message added",
+	"Success Message":"Email Send Successfully",
+	"Admin Email Id": "admin@gmail.com",
+	"Paymet Method": "Cash On Delivery",
+	"Order Notes": "handover to watchman",
+	"Phone Number": "8817690004",
+	"Admin Password": "nitin123",
+	"Email Address": "tanveer@vtestcorp.com",
+	"Password": "Tanveer@123"
+}

@@ -1,0 +1,22 @@
+{
+"Email Address": "sushildo@gmail.com",	
+	"Password": "sushil123",
+	"Product":"Chicken",
+	"Quantity":"2",
+	"Address Type":"Ship To Address",
+	"Full Name":"samuel jackob",
+	"Phone Number":"999888866",
+	"Email":"abc@gmail.com",
+	"Address":"23 downtown road",
+	"City":"kansas",
+	"Postal Code":"1234",
+	"Paymet Method":"Cash On Delivery",
+	"ShipToDifferentAddress_FullName":"petyer jhonson",
+	"ShipToDifferentAddress_PhoneNumber":"876665675",
+	"ShipToDifferentAddress_EmailAddress":"peter@gmail.com",
+	"ShipToDifferentAddress_Address":"2nd street downtown",
+	"ShipToDifferentAddress_City":"kansas",
+	"ShipToDifferentAddress_PostalCode":"3456",
+	"Order Notes":"handover to watchman",
+	"Confirmation Text":"Your Order Has been Confirmed."
+}

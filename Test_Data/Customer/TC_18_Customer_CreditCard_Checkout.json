@@ -1,0 +1,21 @@
+{
+	"Email Address": "sushildo@gmail.com",	
+	"Password": "sushil123",
+	"Product":"Chicken",
+	"Quantity":"2",
+	"Address Type":"Pick Up",
+	"Pick Up Location":"Another Address",
+	"Full Name":"samuel jackob",
+	"Phone Number":"999888866",
+	"Email":"abc@gmail.com",
+	"Address":"23 downtown road",
+	"City":"kansas",
+	"Postal Code":"1234",
+	"Paymet Method":"Credit Card",	
+	"Card Number":"123456789",
+	"Cvv":"234",
+	"Month":"Feb",
+	"Year":"2023",	
+	"Order Notes":"handover to watchman",
+	"Confirmation Text":"Your Order Has been Confirmed."
+}

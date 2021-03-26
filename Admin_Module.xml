@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite 1">
+	<listeners>
+		<listener class-name="listeners.AnnotationTransformer" />
+	</listeners>
+	<test name="Admin Module">
+		<parameter name="browserType" value="chrome" />	
+		<classes>	
+	 		 <class name="com.kisaan.admin.testcases.TC_01_Admin_SignIn"/>   
+			<class name="com.kisaan.admin.testcases.TC_02_Edit_Profile"/> 	
+			<class name="com.kisaan.admin.testcases.TC_03_Admin_Logout"/> 
+			<class name="com.kisaan.admin.testcases.TC_04_Admin_Products_Add_New_Products"/>  
+			<class name="com.kisaan.admin.testcases.TC_05_Admin_Products_SearchProducts"/> 
+			<class name="com.kisaan.admin.testcases.TC_06_Admin_Products_EditProducts"/> 
+		 	<class name="com.kisaan.admin.testcases.TC_07_Admin_Products_Remove"/> 
+			<class name="com.kisaan.admin.testcases.TC_08_Product_Deactive_Active"/>  
+			<class name="com.kisaan.admin.testcases.TC_09_Admin_Vendors_SearchVendors"/>
+		 	<class name="com.kisaan.admin.testcases.TC_10_Admin_Vendors_SendMail"/>   
+			<class name="com.kisaan.admin.testcases.TC_11_Admin_Vendors_RemoveVendors"/>  	
+	 		<class name="com.kisaan.admin.testcases.TC_12_Admin_Vendors_Accept"/>
+			<class name="com.kisaan.admin.testcases.TC_13_Admin_Vendors_RejectPendingVendors"/>  
+			<class name="com.kisaan.admin.testcases.TC_14_Admin_Vendors_ViewList"/> 
+			<class name="com.kisaan.admin.testcases.TC_15_Admin_Customer_ViewDetails"/>  
+			<class name="com.kisaan.admin.testcases.TC_16_Admin_Customer_SendMail"/> 
+			<class name="com.kisaan.admin.testcases.TC_17_Admin_Customer_RemoveCustomer"/>  
+			<class name="com.kisaan.admin.testcases.TC_18_Admin_Manage_Category_Add_Main_Category"/> 
+			<class name="com.kisaan.admin.testcases.TC_19_Admin_Manage_Category_Edit_Main_Category"/>
+			<class name="com.kisaan.admin.testcases.TC_20_Admin_Manage_Category_Remove_Main_Category"/> 
+			<class name="com.kisaan.admin.testcases.TC_21_Admin_Manage_Category_Add_SubCategory"/>  
+			<class name="com.kisaan.admin.testcases.TC_22_Admin_Manage_Category_Edit_SubCategory"/>  
+			<class name="com.kisaan.admin.testcases.TC_23_Admin_Manage_Category_Remove_SubCategory"/> 
+			<class name="com.kisaan.admin.testcases.TC_24_Admin_ServiceArea_AddArea"/>  
+			<class name="com.kisaan.admin.testcases.TC_25_Admin_ServiceArea_EditArea"/>  
+			<class name="com.kisaan.admin.testcases.TC_26_Admin_SliderSetting_AddSlider"/>  
+			<class name="com.kisaan.admin.testcases.TC_27_Admin_SliderSetting_EditSlider"/>  
+			<class name="com.kisaan.admin.testcases.TC_28_Admin_SliderSetting_RemoveSlider"/>  
+			<class name="com.kisaan.admin.testcases.TC_29_Admin_Testimonial_AddTestimonial"/>  
+			<class name="com.kisaan.admin.testcases.TC_30_Admin_Testimonial_Edit_Testimonial"/>  
+			<class name="com.kisaan.admin.testcases.TC_31_Admin_Testimonial_Remove_Testimonial"/>  
+			<class name="com.kisaan.admin.testcases.TC_32_Admin_PageSetting_Add_FAQ"/>  
+			<class name="com.kisaan.admin.testcases.TC_33_Admin_PageSetting_Edit_FAQ"/>  
+			<class name="com.kisaan.admin.testcases.TC_34_Admin_PageSetting_Remove_FAQ"/>  
+			<class name="com.kisaan.admin.testcases.TC_35_Admin_PageSetting_Add_Remove_Logo"/>  
+			<class name="com.kisaan.admin.testcases.TC_36_Admin_PageSetting_Add_HomeBanners"/>  
+			<class name="com.kisaan.admin.testcases.TC_37_Admin_PageSetting_Edit_Banner"/>  
+			<class name="com.kisaan.admin.testcases.TC_38_Admin_PageSetting_Remove_Banner"/>  
+			<class name="com.kisaan.admin.testcases.TC_39_Admin_PageSetting_Large_HomeBanner"/>   
+			<class name="com.kisaan.admin.testcases.TC_40_Admin_PageSetting_About_Us_Page"/>
+			<class name="com.kisaan.admin.testcases.TC_41_Admin_PageSetting_Contact_Us_Page"/>
+			<class name="com.kisaan.admin.testcases.TC_42_Admin_SocialLink"/>
+			<class name="com.kisaan.admin.testcases.TC_43_Theme_Colour_Setting"/>
+			<class name="com.kisaan.admin.testcases.TC_44_Admin_Update_WebsiteLogo"/>
+			<class name="com.kisaan.admin.testcases.TC_45_Admin_GeneralSetting_FeviconLogo"/>
+			<class name="com.kisaan.admin.testcases.TC_46_Admin_GeneralSetting_WebsiteContent"/>
+			<class name="com.kisaan.admin.testcases.TC_47_Admin_GeneralSetting_PaymentSetting"/>
+			<class name="com.kisaan.admin.testcases.TC_48_Admin_GeneralSetting_Background"/>
+			<class name="com.kisaan.admin.testcases.TC_49_Admin_GeneralSetting_AboutUs"/>
+			<class name="com.kisaan.admin.testcases.TC_50_Admin_GeneralSetting_OfficeAddress"/>
+			<class name="com.kisaan.admin.testcases.TC_51_Admin_GeneralSetting_Footer"/>
+			<class name="com.kisaan.admin.testcases.TC_52_Admin_GeneralSetting_PickUp_Locations"/>
+			<class name="com.kisaan.admin.testcases.Tc_53_Admin_Dashboard"/>
+			<class name="com.kisaan.admin.testcases.TC_54_Admin_Dashboard_ViewAll"/>
+			<class name="com.kisaan.admin.testcases.TC_55_Admin_Testimonial_TestimonialTitle"/>
+			<class name="com.kisaan.admin.testcases.TC_56_Admin_Language_Setting"/>
+			<class name="com.kisaan.admin.testcases.TC_57_Admin_Orders_ViewDetails"/>
+			<class name="com.kisaan.admin.testcases.TC_58_Admin_Orders_SendEmail"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+{
+	"Email Address": "tanveer@vtestcorp.com",	
+	"Password": "Testing@01",
+	"Withdraw Method":"Bank",
+	"Withdraw Amount":"100",
+	"Account No":"12345678",
+	"Account Name":"Test Account",
+	"Account Address":"downtown bank",
+	"Swift Code":"123",
+	"Additional Reference":"References one"
+}

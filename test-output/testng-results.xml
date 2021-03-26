@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="40" total="61" passed="14" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-26T11:38:32 IST" name="Suite 1" finished-at="2021-03-26T12:00:59 IST" duration-ms="1346697">
+    <groups>
+    </groups>
+    <test started-at="2021-03-26T11:38:32 IST" name="Customer Module" finished-at="2021-03-26T12:00:59 IST" duration-ms="1346697">
+      <class name="com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts@1e683a3e]" started-at="2021-03-26T11:45:52 IST" name="setUp" finished-at="2021-03-26T11:45:55 IST" duration-ms="2919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_PlaceOrderMultipleProducts()[pri:0, instance:com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts@1e683a3e]" started-at="2021-03-26T11:45:55 IST" name="customer_PlaceOrderMultipleProducts" finished-at="2021-03-26T11:47:25 IST" duration-ms="89519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_PlaceOrderMultipleProducts -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts@1e683a3e]" started-at="2021-03-26T11:47:25 IST" name="checkResult" finished-at="2021-03-26T11:47:25 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_PlaceOrderMultipleProducts status=SUCCESS method=TC_11_Customer_PlaceOrderMultipleProducts.customer_PlaceOrderMultipleProducts()[pri:0, instance:com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts@1e683a3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts@1e683a3e]" started-at="2021-03-26T11:47:25 IST" name="tearDown" finished-at="2021-03-26T11:47:25 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts -->
+      <class name="com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link@759d26fb]" started-at="2021-03-26T11:50:17 IST" name="setUp" finished-at="2021-03-26T11:50:21 IST" duration-ms="3281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_LinkedinLink()[pri:0, instance:com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link@759d26fb]" started-at="2021-03-26T11:50:21 IST" name="verify_LinkedinLink" finished-at="2021-03-26T11:50:36 IST" duration-ms="15202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LinkedinLink -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link@759d26fb]" started-at="2021-03-26T11:50:36 IST" name="checkResult" finished-at="2021-03-26T11:50:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_LinkedinLink status=SUCCESS method=TC_16_VerifyLinkedin_Link.verify_LinkedinLink()[pri:0, instance:com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link@759d26fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link@759d26fb]" started-at="2021-03-26T11:50:36 IST" name="tearDown" finished-at="2021-03-26T11:50:36 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_16_VerifyLinkedin_Link -->
+      <class name="com.kisaan.customer.testcases.TC_01_Customer_SignUp">
+        <test-method is-config="true" signature="classInstitiate()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:38:32 IST" name="classInstitiate" finished-at="2021-03-26T11:38:32 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classInstitiate -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:38:32 IST" name="setUp" finished-at="2021-03-26T11:38:36 IST" duration-ms="4198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="randomStringGenerate()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:38:36 IST" name="randomStringGenerate" finished-at="2021-03-26T11:38:36 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomStringGenerate -->
+        <test-method signature="customer_SignUp()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:38:36 IST" name="customer_SignUp" finished-at="2021-03-26T11:39:37 IST" duration-ms="60799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_SignUp -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:39:37 IST" name="checkResult" finished-at="2021-03-26T11:39:37 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_SignUp status=SUCCESS method=TC_01_Customer_SignUp.customer_SignUp()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T11:39:37 IST" name="tearDown" finished-at="2021-03-26T11:39:38 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openReport()[pri:0, instance:com.kisaan.customer.testcases.TC_01_Customer_SignUp@101952da]" started-at="2021-03-26T12:00:59 IST" name="openReport" finished-at="2021-03-26T12:00:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReport -->
+      </class> <!-- com.kisaan.customer.testcases.TC_01_Customer_SignUp -->
+      <class name="com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout@3d5c822d]" started-at="2021-03-26T11:52:41 IST" name="setUp" finished-at="2021-03-26T11:52:44 IST" duration-ms="2635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout@3d5c822d]" started-at="2021-03-26T11:52:44 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T11:54:43 IST" duration-ms="119561" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Credit Card']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c77fe7739807caf84dad4b3b0d6fda4
+*** Element info: {Using=xpath, value=//option[text()='Credit Card']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Credit Card']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c77fe7739807caf84dad4b3b0d6fda4
+*** Element info: {Using=xpath, value=//option[text()='Credit Card']}
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.kisaan.customer.pageobjects.Checkout_Page.select_PaymentMethod(Checkout_Page.java:184)
+at com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout.customer_AddProductCheckout(TC_18_Customer_CreditCard_Checkout.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout@3d5c822d]" started-at="2021-03-26T11:54:43 IST" name="checkResult" finished-at="2021-03-26T11:54:44 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=FAILURE method=TC_18_Customer_CreditCard_Checkout.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout@3d5c822d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout@3d5c822d]" started-at="2021-03-26T11:54:44 IST" name="tearDown" finished-at="2021-03-26T11:54:44 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_18_Customer_CreditCard_Checkout -->
+      <class name="com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout@6f46426d]" started-at="2021-03-26T11:54:44 IST" name="setUp" finished-at="2021-03-26T11:54:46 IST" duration-ms="2851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout@6f46426d]" started-at="2021-03-26T11:54:46 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T11:58:04 IST" duration-ms="197615" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a80579efb73937cec138c755f31adc7
+*** Element info: {Using=name, value=name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a80579efb73937cec138c755f31adc7
+*** Element info: {Using=name, value=name}
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.clear(Unknown Source)
+at com.kisaan.customer.pageobjects.Checkout_Page.enter_FullName(Checkout_Page.java:135)
+at com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout.customer_AddProductCheckout(TC_19_Customer_MobileMoney_Checkout.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout@6f46426d]" started-at="2021-03-26T11:58:04 IST" name="checkResult" finished-at="2021-03-26T11:58:05 IST" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=FAILURE method=TC_19_Customer_MobileMoney_Checkout.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout@6f46426d]" started-at="2021-03-26T11:58:05 IST" name="tearDown" finished-at="2021-03-26T11:58:05 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_19_Customer_MobileMoney_Checkout -->
+      <class name="com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress@49c7b90e]" started-at="2021-03-26T12:00:15 IST" name="setUp" finished-at="2021-03-26T12:00:17 IST" duration-ms="2739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress@49c7b90e]" started-at="2021-03-26T12:00:17 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T12:00:58 IST" duration-ms="40674" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Successfully Added To Cart')]"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b0c3e6a1956f62404a5f39bba2edd98
+*** Element info: {Using=xpath, value=//span[contains(text(),'Successfully Added To Cart')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Successfully Added To Cart')]"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b0c3e6a1956f62404a5f39bba2edd98
+*** Element info: {Using=xpath, value=//span[contains(text(),'Successfully Added To Cart')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.getText(Unknown Source)
+at com.kisaan.customer.pageobjects.HomePage.verify_SuccessMessage(HomePage.java:192)
+at com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress.customer_AddProductCheckout(TC_21_Customer_ShipToDifferentAddress.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress@49c7b90e]" started-at="2021-03-26T12:00:58 IST" name="checkResult" finished-at="2021-03-26T12:00:59 IST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=FAILURE method=TC_21_Customer_ShipToDifferentAddress.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress@49c7b90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress@49c7b90e]" started-at="2021-03-26T12:00:59 IST" name="tearDown" finished-at="2021-03-26T12:00:59 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_21_Customer_ShipToDifferentAddress -->
+      <class name="com.kisaan.customer.testcases.TC_03_Customer_SearchProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_03_Customer_SearchProduct@3059cbc]" started-at="2021-03-26T11:39:51 IST" name="setUp" finished-at="2021-03-26T11:39:54 IST" duration-ms="2940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_SearchProduct()[pri:0, instance:com.kisaan.customer.testcases.TC_03_Customer_SearchProduct@3059cbc]" started-at="2021-03-26T11:39:54 IST" name="customer_SearchProduct" finished-at="2021-03-26T11:40:23 IST" duration-ms="28716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_SearchProduct -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_03_Customer_SearchProduct@3059cbc]" started-at="2021-03-26T11:40:23 IST" name="checkResult" finished-at="2021-03-26T11:40:23 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_SearchProduct status=SUCCESS method=TC_03_Customer_SearchProduct.customer_SearchProduct()[pri:0, instance:com.kisaan.customer.testcases.TC_03_Customer_SearchProduct@3059cbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_03_Customer_SearchProduct@3059cbc]" started-at="2021-03-26T11:40:23 IST" name="tearDown" finished-at="2021-03-26T11:40:23 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_03_Customer_SearchProduct -->
+      <class name="com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b]" started-at="2021-03-26T11:43:18 IST" name="setUp" finished-at="2021-03-26T11:43:21 IST" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="randomStringGenerate()[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b]" started-at="2021-03-26T11:43:21 IST" name="randomStringGenerate" finished-at="2021-03-26T11:43:21 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomStringGenerate -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b]" started-at="2021-03-26T11:43:21 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T11:44:44 IST" duration-ms="82328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b]" started-at="2021-03-26T11:44:44 IST" name="checkResult" finished-at="2021-03-26T11:44:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=SUCCESS method=TC_07_Customer_AddProductCheckout.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout@3fb1549b]" started-at="2021-03-26T11:44:44 IST" name="tearDown" finished-at="2021-03-26T11:44:44 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_07_Customer_AddProductCheckout -->
+      <class name="com.kisaan.customer.testcases.TC_10_FilterProducts_Categories">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_10_FilterProducts_Categories@2b48a640]" started-at="2021-03-26T11:45:31 IST" name="setUp" finished-at="2021-03-26T11:45:34 IST" duration-ms="2927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_FilterProduct()[pri:0, instance:com.kisaan.customer.testcases.TC_10_FilterProducts_Categories@2b48a640]" started-at="2021-03-26T11:45:34 IST" name="customer_FilterProduct" finished-at="2021-03-26T11:45:52 IST" duration-ms="18019" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='list-type-1']//a[normalize-space()='Fruits']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae48d6e093ab34783ada12a77b0c0b1d
+*** Element info: {Using=xpath, value=//ul[@class='list-type-1']//a[normalize-space()='Fruits']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='list-type-1']//a[normalize-space()='Fruits']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae48d6e093ab34783ada12a77b0c0b1d
+*** Element info: {Using=xpath, value=//ul[@class='list-type-1']//a[normalize-space()='Fruits']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.kisaan.customer.pageobjects.Dashboard_Page.select_Product(Dashboard_Page.java:113)
+at com.kisaan.customer.testcases.TC_10_FilterProducts_Categories.customer_FilterProduct(TC_10_FilterProducts_Categories.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_FilterProduct -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_10_FilterProducts_Categories@2b48a640]" started-at="2021-03-26T11:45:52 IST" name="checkResult" finished-at="2021-03-26T11:45:52 IST" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_FilterProduct status=FAILURE method=TC_10_FilterProducts_Categories.customer_FilterProduct()[pri:0, instance:com.kisaan.customer.testcases.TC_10_FilterProducts_Categories@2b48a640] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_10_FilterProducts_Categories@2b48a640]" started-at="2021-03-26T11:45:52 IST" name="tearDown" finished-at="2021-03-26T11:45:52 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_10_FilterProducts_Categories -->
+      <class name="com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link@7a419da4]" started-at="2021-03-26T11:47:41 IST" name="setUp" finished-at="2021-03-26T11:47:44 IST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_FacebookLink()[pri:0, instance:com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link@7a419da4]" started-at="2021-03-26T11:47:44 IST" name="verify_FacebookLink" finished-at="2021-03-26T11:48:18 IST" duration-ms="34319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_FacebookLink -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link@7a419da4]" started-at="2021-03-26T11:48:18 IST" name="checkResult" finished-at="2021-03-26T11:48:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_FacebookLink status=SUCCESS method=TC_13_VerifyFacebook_Link.verify_FacebookLink()[pri:0, instance:com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link@7a419da4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link@7a419da4]" started-at="2021-03-26T11:48:18 IST" name="tearDown" finished-at="2021-03-26T11:48:18 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_13_VerifyFacebook_Link -->
+      <class name="com.kisaan.customer.testcases.TC_12_Customer_SignOut">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_12_Customer_SignOut@2053d869]" started-at="2021-03-26T11:47:25 IST" name="setUp" finished-at="2021-03-26T11:47:28 IST" duration-ms="2907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_SignOut()[pri:0, instance:com.kisaan.customer.testcases.TC_12_Customer_SignOut@2053d869]" started-at="2021-03-26T11:47:28 IST" name="customer_SignOut" finished-at="2021-03-26T11:47:41 IST" duration-ms="12891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_SignOut -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_12_Customer_SignOut@2053d869]" started-at="2021-03-26T11:47:41 IST" name="checkResult" finished-at="2021-03-26T11:47:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_SignOut status=SUCCESS method=TC_12_Customer_SignOut.customer_SignOut()[pri:0, instance:com.kisaan.customer.testcases.TC_12_Customer_SignOut@2053d869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_12_Customer_SignOut@2053d869]" started-at="2021-03-26T11:47:41 IST" name="tearDown" finished-at="2021-03-26T11:47:41 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_12_Customer_SignOut -->
+      <class name="com.kisaan.customer.testcases.TC_09_ChangeExistingPassword">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_09_ChangeExistingPassword@4d02f94e]" started-at="2021-03-26T11:45:04 IST" name="setUp" finished-at="2021-03-26T11:45:07 IST" duration-ms="2891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ChangeExistingPassword()[pri:0, instance:com.kisaan.customer.testcases.TC_09_ChangeExistingPassword@4d02f94e]" started-at="2021-03-26T11:45:07 IST" name="ChangeExistingPassword" finished-at="2021-03-26T11:45:31 IST" duration-ms="23125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeExistingPassword -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_09_ChangeExistingPassword@4d02f94e]" started-at="2021-03-26T11:45:31 IST" name="checkResult" finished-at="2021-03-26T11:45:31 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangeExistingPassword status=SUCCESS method=TC_09_ChangeExistingPassword.ChangeExistingPassword()[pri:0, instance:com.kisaan.customer.testcases.TC_09_ChangeExistingPassword@4d02f94e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_09_ChangeExistingPassword@4d02f94e]" started-at="2021-03-26T11:45:31 IST" name="tearDown" finished-at="2021-03-26T11:45:31 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_09_ChangeExistingPassword -->
+      <class name="com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart@24fcf36f]" started-at="2021-03-26T11:40:57 IST" name="setUp" finished-at="2021-03-26T11:41:00 IST" duration-ms="2956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_DeleteProductFromCart()[pri:0, instance:com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart@24fcf36f]" started-at="2021-03-26T11:41:00 IST" name="customer_DeleteProductFromCart" finished-at="2021-03-26T11:42:05 IST" duration-ms="65408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_DeleteProductFromCart -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart@24fcf36f]" started-at="2021-03-26T11:42:05 IST" name="checkResult" finished-at="2021-03-26T11:42:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_DeleteProductFromCart status=SUCCESS method=TC_05_Customer_DeleteProductFromCart.customer_DeleteProductFromCart()[pri:0, instance:com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart@24fcf36f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart@24fcf36f]" started-at="2021-03-26T11:42:05 IST" name="tearDown" finished-at="2021-03-26T11:42:06 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_05_Customer_DeleteProductFromCart -->
+      <class name="com.kisaan.customer.testcases.TC_08_EditAddress">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_08_EditAddress@ea6147e]" started-at="2021-03-26T11:44:44 IST" name="setUp" finished-at="2021-03-26T11:44:46 IST" duration-ms="2830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EditAddress()[pri:0, instance:com.kisaan.customer.testcases.TC_08_EditAddress@ea6147e]" started-at="2021-03-26T11:44:46 IST" name="EditAddress" finished-at="2021-03-26T11:45:04 IST" duration-ms="18019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAddress -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_08_EditAddress@ea6147e]" started-at="2021-03-26T11:45:04 IST" name="checkResult" finished-at="2021-03-26T11:45:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditAddress status=SUCCESS method=TC_08_EditAddress.EditAddress()[pri:0, instance:com.kisaan.customer.testcases.TC_08_EditAddress@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_08_EditAddress@ea6147e]" started-at="2021-03-26T11:45:04 IST" name="tearDown" finished-at="2021-03-26T11:45:04 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_08_EditAddress -->
+      <class name="com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout@73700b80]" started-at="2021-03-26T11:58:05 IST" name="setUp" finished-at="2021-03-26T11:58:08 IST" duration-ms="3005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout@73700b80]" started-at="2021-03-26T11:58:08 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T12:00:14 IST" duration-ms="126569" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Bank Wire']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2af999b5f96b476b302ac03c9543d75
+*** Element info: {Using=xpath, value=//option[text()='Bank Wire']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Bank Wire']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2af999b5f96b476b302ac03c9543d75
+*** Element info: {Using=xpath, value=//option[text()='Bank Wire']}
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.kisaan.customer.pageobjects.Checkout_Page.select_PaymentMethod(Checkout_Page.java:184)
+at com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout.customer_AddProductCheckout(TC_20_Customer_BankWire_Checkout.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout@73700b80]" started-at="2021-03-26T12:00:14 IST" name="checkResult" finished-at="2021-03-26T12:00:15 IST" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=FAILURE method=TC_20_Customer_BankWire_Checkout.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout@73700b80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout@73700b80]" started-at="2021-03-26T12:00:15 IST" name="tearDown" finished-at="2021-03-26T12:00:15 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_20_Customer_BankWire_Checkout -->
+      <class name="com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link@14555e0a]" started-at="2021-03-26T11:48:18 IST" name="setUp" finished-at="2021-03-26T11:48:21 IST" duration-ms="2834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_GoogleLink()[pri:0, instance:com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link@14555e0a]" started-at="2021-03-26T11:48:21 IST" name="verify_GoogleLink" finished-at="2021-03-26T11:49:07 IST" duration-ms="46573" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b029375ec0635bb80a0b550d2705879
+*** Element info: {Using=id, value=}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b029375ec0635bb80a0b550d2705879
+*** Element info: {Using=id, value=}
+at jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at com.kisaan.customer.pageobjects.HomePage.verify_Google_Page(HomePage.java:235)
+at com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link.verify_GoogleLink(TC_14_VerifyGoogle_Link.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GoogleLink -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link@14555e0a]" started-at="2021-03-26T11:49:07 IST" name="checkResult" finished-at="2021-03-26T11:49:08 IST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_GoogleLink status=FAILURE method=TC_14_VerifyGoogle_Link.verify_GoogleLink()[pri:0, instance:com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link@14555e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link@14555e0a]" started-at="2021-03-26T11:49:08 IST" name="tearDown" finished-at="2021-03-26T11:49:08 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_14_VerifyGoogle_Link -->
+      <class name="com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link@4bb33f74]" started-at="2021-03-26T11:49:08 IST" name="setUp" finished-at="2021-03-26T11:49:11 IST" duration-ms="2982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_TwitterLink()[pri:0, instance:com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link@4bb33f74]" started-at="2021-03-26T11:49:11 IST" name="verify_TwitterLink" finished-at="2021-03-26T11:50:17 IST" duration-ms="65616" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Join Twitter today.']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a6bf1ab256101f1215283a762fb1c1
+*** Element info: {Using=xpath, value=//span[normalize-space()='Join Twitter today.']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Join Twitter today.']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N5Q8SR4', ip: '172.16.16.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a6bf1ab256101f1215283a762fb1c1
+*** Element info: {Using=xpath, value=//span[normalize-space()='Join Twitter today.']}
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+at com.kisaan.customer.pageobjects.HomePage.verify_Twitter_Page(HomePage.java:245)
+at com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link.verify_TwitterLink(TC_15_VerifyTwitter_Link.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TwitterLink -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link@4bb33f74]" started-at="2021-03-26T11:50:17 IST" name="checkResult" finished-at="2021-03-26T11:50:17 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_TwitterLink status=FAILURE method=TC_15_VerifyTwitter_Link.verify_TwitterLink()[pri:0, instance:com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link@4bb33f74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link@4bb33f74]" started-at="2021-03-26T11:50:17 IST" name="tearDown" finished-at="2021-03-26T11:50:17 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_15_VerifyTwitter_Link -->
+      <class name="com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout@3c73951]" started-at="2021-03-26T11:50:36 IST" name="setUp" finished-at="2021-03-26T11:50:39 IST" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout@3c73951]" started-at="2021-03-26T11:50:39 IST" name="customer_AddProductCheckout" finished-at="2021-03-26T11:52:41 IST" duration-ms="122356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductCheckout -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout@3c73951]" started-at="2021-03-26T11:52:41 IST" name="checkResult" finished-at="2021-03-26T11:52:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductCheckout status=SUCCESS method=TC_17_Customer_AddProduct_PickUp_Checkout.customer_AddProductCheckout()[pri:0, instance:com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout@3c73951] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout@3c73951]" started-at="2021-03-26T11:52:41 IST" name="tearDown" finished-at="2021-03-26T11:52:41 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_17_Customer_AddProduct_PickUp_Checkout -->
+      <class name="com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart@7ea9e1e2]" started-at="2021-03-26T11:40:23 IST" name="setUp" finished-at="2021-03-26T11:40:26 IST" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_AddProductToCart()[pri:0, instance:com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart@7ea9e1e2]" started-at="2021-03-26T11:40:26 IST" name="customer_AddProductToCart" finished-at="2021-03-26T11:40:57 IST" duration-ms="30828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_AddProductToCart -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart@7ea9e1e2]" started-at="2021-03-26T11:40:57 IST" name="checkResult" finished-at="2021-03-26T11:40:57 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_AddProductToCart status=SUCCESS method=TC_04_Customer_AddProductToCart.customer_AddProductToCart()[pri:0, instance:com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart@7ea9e1e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart@7ea9e1e2]" started-at="2021-03-26T11:40:57 IST" name="tearDown" finished-at="2021-03-26T11:40:57 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_04_Customer_AddProductToCart -->
+      <class name="com.kisaan.customer.testcases.TC_02_Customer_SignIn">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_02_Customer_SignIn@6babf3bf]" started-at="2021-03-26T11:39:38 IST" name="setUp" finished-at="2021-03-26T11:39:41 IST" duration-ms="3050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_SignIn()[pri:0, instance:com.kisaan.customer.testcases.TC_02_Customer_SignIn@6babf3bf]" started-at="2021-03-26T11:39:41 IST" name="customer_SignIn" finished-at="2021-03-26T11:39:51 IST" duration-ms="10702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_SignIn -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_02_Customer_SignIn@6babf3bf]" started-at="2021-03-26T11:39:51 IST" name="checkResult" finished-at="2021-03-26T11:39:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_SignIn status=SUCCESS method=TC_02_Customer_SignIn.customer_SignIn()[pri:0, instance:com.kisaan.customer.testcases.TC_02_Customer_SignIn@6babf3bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_02_Customer_SignIn@6babf3bf]" started-at="2021-03-26T11:39:51 IST" name="tearDown" finished-at="2021-03-26T11:39:51 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_02_Customer_SignIn -->
+      <class name="com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity@10feca44]" started-at="2021-03-26T11:42:06 IST" name="setUp" finished-at="2021-03-26T11:42:09 IST" duration-ms="2965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customer_UpdateProductQuantity()[pri:0, instance:com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity@10feca44]" started-at="2021-03-26T11:42:09 IST" name="customer_UpdateProductQuantity" finished-at="2021-03-26T11:43:18 IST" duration-ms="69822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer_UpdateProductQuantity -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity@10feca44]" started-at="2021-03-26T11:43:18 IST" name="checkResult" finished-at="2021-03-26T11:43:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customer_UpdateProductQuantity status=SUCCESS method=TC_06_Customer_UpdateProductQuantity.customer_UpdateProductQuantity()[pri:0, instance:com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity@10feca44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity@10feca44]" started-at="2021-03-26T11:43:18 IST" name="tearDown" finished-at="2021-03-26T11:43:18 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kisaan.customer.testcases.TC_06_Customer_UpdateProductQuantity -->
+    </test> <!-- Customer Module -->
+  </suite> <!-- Suite 1 -->
+</testng-results>
