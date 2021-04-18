@@ -8,7 +8,7 @@
 	<test name="Admin Module">
 		<parameter name="browserType" value="chrome" />	
 		<classes>	
-	 		 <class name="com.kisaan.admin.testcases.TC_01_Admin_SignIn"/>   
+	 	<!-- 	 <class name="com.kisaan.admin.testcases.TC_01_Admin_SignIn"/>   
 			<class name="com.kisaan.admin.testcases.TC_02_Edit_Profile"/> 	
 			<class name="com.kisaan.admin.testcases.TC_03_Admin_Logout"/> 
 			<class name="com.kisaan.admin.testcases.TC_04_Admin_Products_Add_New_Products"/>  
@@ -64,7 +64,7 @@
 			<class name="com.kisaan.admin.testcases.TC_54_Admin_Dashboard_ViewAll"/>
 			<class name="com.kisaan.admin.testcases.TC_55_Admin_Testimonial_TestimonialTitle"/>
 			<class name="com.kisaan.admin.testcases.TC_56_Admin_Language_Setting"/>
-			<class name="com.kisaan.admin.testcases.TC_57_Admin_Orders_ViewDetails"/>
+			<class name="com.kisaan.admin.testcases.TC_57_Admin_Orders_ViewDetails"/> -->
 			<class name="com.kisaan.admin.testcases.TC_58_Admin_Orders_SendEmail"/>
 		</classes>
 	</test>

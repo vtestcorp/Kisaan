@@ -41,6 +41,7 @@ public class TC_47_Admin_GeneralSetting_PaymentSetting extends BaseClass{
 	//	general_Page.enter_PaypalBusinessAccount(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Paypal Business Account"));
 		general_Page.enter_StripeKey(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Stripe Key"));
 		general_Page.enter_StripeSecretKey(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Stripe Secret Key"));
+		general_Page.enter_SalesTax(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Sales Tax"));
 	//	general_Page.enter_MobileMoneyInstruction(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Mobile Money Instruction"));
 	//	general_Page.enter_BankInformation(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Bank Information"));
 	//	general_Page.enter_Dynamic_Commission(JsonUtils.getData(DefineConstants.TC_47_Admin_GeneralSetting_PaymentSetting, "Dynamic Commission"));

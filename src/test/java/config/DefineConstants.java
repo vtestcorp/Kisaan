@@ -8,7 +8,7 @@ public class DefineConstants {
 	//public static final String KISAAN_URL = "http://grocery-delivery.devwepro.com/";
 	
 	// New Application URL
-	public static final String KISAAN_URL = "http://www.kisaansquad.com/";
+	public static final String KISAAN_URL = "http://www.kisaansquad.com";
 	
 	//Admin Portal
 //	public static final String KISAAN_Admin_URL = "http://grocery-delivery.devwepro.com/admin";
@@ -28,6 +28,8 @@ public class DefineConstants {
 	public static final int explicitWait_60 = 60;
 
 	public static final String PROJECT_PATH = System.getProperty("user.dir")+"/";
+	
+	public static final String PROJECT_PATH1 = System.getProperty("user.dir")+"\"";
 
 	public static final String PROJECT_OS = System.getProperty("os.name");
 
@@ -78,6 +80,7 @@ public class DefineConstants {
 	public static final String TC_10_Vendor_AddNew_SearchProduct = TestData_Folder + "//" + Vendor_TestData_Folder + "//" + "TC_10_Vendor_AddNew_SearchProduct.json";
 	public static final String TC_11_Vendor_WithdrawNow_Paypal = TestData_Folder + "//" + Vendor_TestData_Folder + "//" + "TC_11_Vendor_WithdrawNow_Paypal.json";
 	public static final String TC_12_Vendor_WithdrawNow_Bank = TestData_Folder + "//" + Vendor_TestData_Folder + "//" + "TC_12_Vendor_WithdrawNow_Bank.json";
+	public static final String TC_13_Vendor_AddFarmersMarket = TestData_Folder + "//" + Vendor_TestData_Folder + "//" + "TC_13_Vendor_AddFarmersMarket.json";
 	
 	//Admin
 	public static final String TC_01_Admin_SignIn = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_01_Admin_SignIn.json";
@@ -135,6 +138,13 @@ public class DefineConstants {
 	public static final String TC_56_Admin_Language_Setting = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_56_Admin_Language_Setting.json";
 	public static final String TC_57_Admin_Orders_ViewDetails = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_57_Admin_Orders_ViewDetails.json";
 	public static final String TC_58_Admin_Orders_SendEmail = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_58_Admin_Orders_SendEmail.json";
+	public static final String TC_59_Admin_ManageUnit_AddNewUnit = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_59_Admin_ManageUnit_AddNewUnit.json";
+	public static final String TC_60_Admin_ManageUnit_EditUnit = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_60_Admin_ManageUnit_EditUnit.json";
+	public static final String TC_61_Admin_FarmersMarket_AddMarket = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_61_Admin_FarmersMarket_AddMarket.json";
+	public static final String TC_62_Admin_FarmersMarket_EditMarket = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_62_Admin_FarmersMarket_EditMarket.json";
+	public static final String TC_63_Admin_FarmersMarket_DeactivateMarket = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_63_Admin_FarmersMarket_DeactivateMarket.json";
+	public static final String TC_64_Admin_FarmersMarket_ViewDetails = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_64_Admin_FarmersMarket_ViewDetails.json";
+	public static final String TC_65_Admin_FarmersMarket_UpdateTiming = TestData_Folder + "//" + Admin_TestData_Folder + "//" + "TC_65_Admin_FarmersMarket_UpdateTiming.json";
 
 
 

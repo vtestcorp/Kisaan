@@ -83,8 +83,8 @@ public class Products_Page {
 	@FindBy(xpath = "//i[contains(@class,'glyphicon glyphicon-ok')]")
 	private WebElement addFeatureProduct;
 	
-	@FindBy(xpath = "//div[@class='bootstrap-tagsinput']//input[@type='text']")
-	private WebElement productTags;
+	@FindBy(xpath = "//input[@id='commission_rate']")
+	private WebElement commissionRate;
 	
 	@FindBy(xpath = "//button[normalize-space()='Add New Product']")
 	private WebElement addNewProductsButton;
@@ -300,13 +300,13 @@ public class Products_Page {
 		}
     }
 	
-	public void enter_ProductTags(String input_Tags) {
-		applyWait.waitForElementToBeClickable(productTags, DefineConstants.explicitWait_60);
-		productTags.sendKeys(input_Tags);
+	public void enter_CommissionRate(String input_Tags) {
+		applyWait.waitForElementToBeClickable(commissionRate, DefineConstants.explicitWait_60).clear();
+		commissionRate.sendKeys(input_Tags);
 			try {
-				Screenshots.takeScreenshot(driver, "User entered Product tags as "+ input_Tags);
-				test.log(Status.INFO, "User entered Product tags as "+ input_Tags);
-				Log.info("User entered Product tags as "+ input_Tags);
+				Screenshots.takeScreenshot(driver, "User entered Commission Rate as "+ input_Tags);
+				test.log(Status.INFO, "User entered Commission Rate as "+ input_Tags);
+				Log.info("User entered Commission Rate as "+ input_Tags);
 				Thread.sleep(3000);
 			} catch (Exception e) {
 				e.printStackTrace();

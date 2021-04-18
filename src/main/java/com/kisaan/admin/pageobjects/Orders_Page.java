@@ -162,6 +162,19 @@ public class Orders_Page {
 		}
     }
 	
+	public void click_Completed(String email) {
+		WebElement details=driver.findElement(By.xpath("//td[text()='"+email+"']/following-sibling::td[5]/span/button"));
+		javascriptClick.click(details);
+		try {
+			Screenshots.takeScreenshot(driver, "User clicked send email of "+email);
+			test.log(Status.INFO, "User clicked send email of "+email);
+			Log.info("User clicked send email of "+email);		
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+	
 	public void verifyInputValueInfo(String inputEmailAddress) {
 		applyWait.waitForElementToBeClickable(Table, DefineConstants.explicitWait_60);
 		tableRows = Table.findElements(By.tagName("tr"));

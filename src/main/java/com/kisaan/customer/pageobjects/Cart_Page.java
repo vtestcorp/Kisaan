@@ -143,6 +143,7 @@ public class Cart_Page {
 					Screenshots.takeScreenshot(driver, input_ProductName +" quantity is "+productQuantityText);
                     int productQuantityNumber=Integer.parseInt(productQuantityText);
                     int inputProductQuantityNumber=Integer.parseInt(input_Quantity);
+                    
                     if(productQuantityNumber<inputProductQuantityNumber){                    	                    
                     	while(!productQuantityElement.getText().equals(input_Quantity)){                    		
                     		driver.findElement(By.xpath("//td/a[text()='"+input_ProductName+"']/following::span[3]")).click();                    		

@@ -159,13 +159,19 @@ public class HomePage {
 			Screenshots.takeScreenshot(driver, "User searched product " + productName);
 			test.log(Status.INFO, "User searched product " + productName);
 			Log.info("User searched product " + productName);
-
+			String product;
 			// add product to cart
-			WebElement productAddToCart = driver.findElement(By.xpath("//h4[contains(text(),'" + productName + "')]//following::span[2]"));
+			if (productName.equals("Onion")) {
+				product=productName.toLowerCase();
+			}else {
+				product=productName;
+			}
+			WebElement productAddToCart = driver.findElement(By.xpath("//h4[contains(text(),'" + product + "')]//following::span[2]"));
 			javascriptClick.click(productAddToCart);
 			Screenshots.takeScreenshot(driver, "User clicked add to cart button for " + productName);
 			test.log(Status.INFO, "User clicked add to cart button for " + productName);
 			Log.info("User clicked add to cart button for " + productName);
+			
 		}
 	}
 

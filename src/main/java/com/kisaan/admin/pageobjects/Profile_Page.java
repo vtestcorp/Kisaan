@@ -105,7 +105,6 @@ public class Profile_Page {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
     }
 	
 	public void click_UpdateProfile() {

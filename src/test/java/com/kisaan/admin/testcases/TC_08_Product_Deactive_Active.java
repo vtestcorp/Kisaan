@@ -61,7 +61,7 @@ public class TC_08_Product_Deactive_Active extends BaseClass {
 		products_Page.enter_ProductStock(JsonUtils.getData(DefineConstants.TC_08_Product_Deactive_Active, "Stock"));
 		products_Page.enter_ReturnPolicy(JsonUtils.getData(DefineConstants.TC_08_Product_Deactive_Active, "Return Policy"));
 		products_Page.click_Add_Feature_Products();
-		products_Page.enter_ProductTags(JsonUtils.getData(DefineConstants.TC_08_Product_Deactive_Active, "Product Name"));
+		products_Page.enter_CommissionRate(JsonUtils.getData(DefineConstants.TC_04_Admin_Products_Add_New_Products, "Commission Rate"));
 		products_Page.click_Add_New_Products_Button();
 		products_Page.verify_SuccessMessage(JsonUtils.getData(DefineConstants.TC_08_Product_Deactive_Active, "Success Message"));
 		

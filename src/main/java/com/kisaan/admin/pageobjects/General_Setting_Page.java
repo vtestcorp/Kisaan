@@ -85,6 +85,9 @@ public class General_Setting_Page{
 	@FindBy(xpath = "//input[@placeholder='Stripe Secret Key']")
 	private WebElement stripSecretKey;
 	
+	@FindBy(xpath = "//input[@name='sales_tax']")
+	private WebElement salesTax;
+	
 	@FindBy(xpath = "//input[@placeholder='Mobile Money Instruction']")
 	private WebElement mobileMoney;
 	
@@ -464,6 +467,18 @@ public class General_Setting_Page{
 			Screenshots.takeScreenshot(driver, "User enter Stripe Secret Key as: " + input);
 			test.log(Status.INFO, "User enter Stripe Secret Key as: " + input);
 			Log.info("User enter Stripe Secret Key as: " + input);
+			Thread.sleep(3000);
+		} catch (Exception e) {
+		}
+	}
+	
+	public void enter_SalesTax(String input) {
+		applyWait.waitForElementToBeClickable(salesTax, DefineConstants.explicitWait_60).clear();
+		salesTax.sendKeys(input);
+		try {
+			Screenshots.takeScreenshot(driver, "User enter Sales tax value as: " + input);
+			test.log(Status.INFO, "User enter Sales tax value as: " + input);
+			Log.info("User enter Sales tax value as: " + input);
 			Thread.sleep(3000);
 		} catch (Exception e) {
 		}

@@ -44,6 +44,7 @@ public class TC_11_Customer_PlaceOrderMultipleProducts extends BaseClass {
 		homePage.openCart();
 		cart_Page.updateProductQuantity(JsonUtils.getArrayValues(DefineConstants.TC_11_Customer_PlaceOrderMultipleProducts, "Products"));
 		cart_Page.click_ProceedToCheckoutButton();
+		
 		// Enter Billing Address
 		checkout_Page.select_ShipToAddress_Dropdown(JsonUtils.getData(DefineConstants.TC_07_Customer_AddProductCheckout, "Address Type"));
 		checkout_Page.enter_FullName(JsonUtils.getData(DefineConstants.TC_07_Customer_AddProductCheckout, "Full Name"));

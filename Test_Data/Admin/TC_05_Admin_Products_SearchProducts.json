@@ -1,1 +1,19 @@
-{"Previous Price":"20","Product Name":"wucoc Apple","Email Id":"admin@gmail.com","Vendor Name":"Vendor","Vendor Unit":"Pound","Name":"bgqdy","Current Price":"30","Sub Category Name":"Fresh Fruits","Success Message":"New Product Added Successfully.","Return Policy":"Return Policy Added","Vendor Store":"Demo Store","Image Name":"Apple.jpg","Main Category Name":"Fruits","Product Description":"Product Description added","Stock":"15","Password":"nitin123"}
+{
+	"Previous Price": "20",
+	"Product Name": "sguhh Apple",
+	"Email Id": "admin@gmail.com",
+	"Vendor Name": "Vendor",
+	"Vendor Unit": "Pound",
+	"Name": "bgqdy",
+	"Current Price": "30",
+	"Commission Rate":"10",
+	"Sub Category Name": "Fresh Fruits",
+	"Success Message": "New Product Added Successfully.",
+	"Return Policy": "Return Policy Added",
+	"Vendor Store": "Demo Store",
+	"Image Name": "Apple.jpg",
+	"Main Category Name": "Fruits",
+	"Product Description": "Product Description added",
+	"Stock": "15",
+	"Password": "nitin123"
+}

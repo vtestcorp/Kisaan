@@ -1,5 +1,8 @@
 package com.kisaan.admin.testcases;
 
+import java.util.Random;
+
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.kisaan.admin.pageobjects.Orders_Page;
@@ -24,21 +27,21 @@ public class TC_58_Admin_Orders_SendEmail extends BaseClass{
 	Orders_Page order_Page;
 	Profile_Page profile_page;
 	
-//	@BeforeMethod
-//	public static void randomStringGenerate() {
-//		int leftLimit = 97; // letter 'a'
-//		int rightLimit = 122; // letter 'z'
-//		int targetStringLength = 5;
-//		Random random = new Random();
-//		
-//		String generatedString = random.ints(leftLimit, rightLimit + 1).limit(targetStringLength)
-//				.collect(StringBuilder::new, StringBuilder::appendCodePoint, 
-//				StringBuilder::append).toString();   //String Generate
-//		
-//		System.out.println(generatedString);
-//		JsonUtils.setData("Full Name", generatedString, DefineConstants.TC_57_Admin_Orders_ViewDetails);
-//		JsonUtils.setData("Email", generatedString+"@gmail.com", DefineConstants.TC_57_Admin_Orders_ViewDetails);
-//	}
+	@BeforeMethod
+	public static void randomStringGenerate() {
+		int leftLimit = 97; // letter 'a'
+		int rightLimit = 122; // letter 'z'
+		int targetStringLength = 5;
+		Random random = new Random();
+		
+		String generatedString = random.ints(leftLimit, rightLimit + 1).limit(targetStringLength)
+				.collect(StringBuilder::new, StringBuilder::appendCodePoint, 
+				StringBuilder::append).toString();   //String Generate
+		
+		System.out.println(generatedString);
+		JsonUtils.setData("Full Name", generatedString, DefineConstants.TC_58_Admin_Orders_SendEmail);
+		JsonUtils.setData("Email", generatedString+"@gmail.com", DefineConstants.TC_58_Admin_Orders_SendEmail);
+	}
 
 	@Test(enabled = true)
 	public void admin_Orders_SendEmail() throws Exception {
@@ -54,31 +57,32 @@ public class TC_58_Admin_Orders_SendEmail extends BaseClass{
 		profile_page=new Profile_Page(driver, test);
 				
 		//Place Order
-//		driver.get(DefineConstants.KISAAN_URL);
-//		homePage.click_SignIn_Link();
-//		signIn_Page.enter_EmailAddress(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Email Address"));	
-//		signIn_Page.enter_Password(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Password"));
-//		signIn_Page.click_LogIN_Button();
-//		dashboard_Page.verfiy_MyDashboard();
-//		dashboard_Page.click_Home();
-//		homePage.click_FindButton();
-//		homePage.add_Products_ToCart(JsonUtils.getArrayValues(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Products"));		
-//		homePage.openCart();
-//		cart_Page.updateProductQuantity(JsonUtils.getArrayValues(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Products"));
-//		cart_Page.click_ProceedToCheckoutButton();
-//		// Enter Billing Address
-//		checkout_Page.select_ShipToAddress_Dropdown(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Address Type"));
-//		checkout_Page.enter_FullName(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Full Name"));
-//		checkout_Page.enter_Phone(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Phone Number"));
-//		checkout_Page.enter_Email(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Email"));
-//		checkout_Page.enter_Address(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Address"));
-//		checkout_Page.enter_City(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "City"));
-//		checkout_Page.enter_PostalCode(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Postal Code"));
-//		checkout_Page.select_PaymentMethod(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Paymet Method"));
-//		checkout_Page.enter_OrderNotes(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Order Notes"));
-//		checkout_Page.click_OrderNow_Button();  
-//		checkout_Page.verify_ConfirmationText(JsonUtils.getData(DefineConstants.TC_57_Admin_Orders_ViewDetails, "Confirmation Text"));
-//
+		driver.get(DefineConstants.KISAAN_URL);
+	//	homePage.click_SignIn_Link();
+		signIn_Page.enter_EmailAddress(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Email Address"));	
+		signIn_Page.enter_Password(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Password"));
+		signIn_Page.click_LogIN_Button();
+		dashboard_Page.verfiy_MyDashboard();
+		dashboard_Page.click_Home();
+		homePage.click_DemoStore();
+		homePage.click_FindButton();
+		homePage.add_Products_ToCart(JsonUtils.getArrayValues(DefineConstants.TC_58_Admin_Orders_SendEmail, "Products"));		
+		homePage.openCart();
+		cart_Page.updateProductQuantity(JsonUtils.getArrayValues(DefineConstants.TC_58_Admin_Orders_SendEmail, "Products"));
+		cart_Page.click_ProceedToCheckoutButton();
+		// Enter Billing Address
+		checkout_Page.select_ShipToAddress_Dropdown(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Address Type"));
+		checkout_Page.enter_FullName(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Full Name"));
+		checkout_Page.enter_Phone(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Phone Number"));
+		checkout_Page.enter_Email(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Email"));
+		checkout_Page.enter_Address(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Address"));
+		checkout_Page.enter_City(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "City"));
+		checkout_Page.enter_PostalCode(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Postal Code"));
+		checkout_Page.select_PaymentMethod(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Paymet Method"));
+		checkout_Page.enter_OrderNotes(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Order Notes"));
+		checkout_Page.click_OrderNow_Button();  
+		checkout_Page.verify_ConfirmationText(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Confirmation Text"));
+
 		//Verify Order
 		driver.get(DefineConstants.KISAAN_Admin_URL);
 		profile_page.enter_EmailAddress(JsonUtils.getData(DefineConstants.TC_58_Admin_Orders_SendEmail, "Admin Email Id"));	
