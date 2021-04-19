@@ -98,6 +98,34 @@ public class Farmers_Market {
 	@FindBy(xpath = "//input[@id='datepicker']")
 	private WebElement date;
 	
+	@FindBy(xpath = "//input[@id='timepicker']")
+	private WebElement time;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar left']//select[@class='hourselect']")
+	private WebElement fromHr;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar left']//select[@class='minuteselect']")
+	private WebElement fromMin;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar left']//select[@class='ampmselect']")
+	private WebElement fromAmPm;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar right']//select[@class='hourselect']")
+	private WebElement toHr;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar right']//select[@class='minuteselect']")
+	private WebElement toMin;
+	
+	@FindBy(xpath = "//div[@class='drp-calendar right']//select[@class='ampmselect']")
+	private WebElement toAmPm;
+	
+	@FindBy(xpath = "//button[normalize-space()='Apply']")
+	private WebElement apply;
+	
+	@FindBy(xpath = "//button[normalize-space()='Update Timing']")
+	private WebElement updateTiming;
+	
+	
 	public void click_FarmersMarket_Tab() {
 		applyWait.waitForElementToBeClickable(farmersMarket, DefineConstants.explicitWait_60);
 		javascriptClick.click(farmersMarket);
@@ -178,11 +206,11 @@ public class Farmers_Market {
    }
 	
 	public void upload_Image(String input_ImageName)  {
-		//applyWait.waitForElementToBeClickable(fileUpload, DefineConstants.explicitWait_30)
-		//		.sendKeys(DefineConstants.PROJECT_PATH1 + "FilesToUpload" + "/" + input_ImageName);
-		
+		applyWait.waitForElementToBeClickable(fileUpload, DefineConstants.explicitWait_30)
+				.sendKeys(DefineConstants.PROJECT_PATH + "FilesToUpload" + "/" + input_ImageName);
+	
 	//	fileUpload.click();;
-		fileUpload.sendKeys("C:\\Users\\Dell\\eclipse-workspace\\KISAAN\\FilesToUpload\\Market Shop.jpg");
+	//	fileUpload.sendKeys("C:\\Users\\Dell\\eclipse-workspace\\KISAAN\\FilesToUpload\\Market Shop.jpg");
 		try {
 			Screenshots.takeScreenshot(driver, "User uploaded " + input_ImageName + "Image");
 			Thread.sleep(3000);
@@ -439,19 +467,79 @@ public class Farmers_Market {
 		}
     }
 	
-	public void select_Date(String input_ScheduledDate) {
+	public void select_Date() {
+		 date.click();
+		 date.sendKeys(Keys.ENTER);
 		try {
-		//	applyWait.waitForElementToBeClickable(Date, DefineConstants.explicitWait_30).click();
-			date = driver.findElement(By.xpath("//a[contains(text(),'"+input_ScheduledDate+"')]"));
-			date.click();
-			Screenshots.takeScreenshot(driver, "User selected schedule date as " + input_ScheduledDate);
-			test.log(Status.INFO, "User selected schedule date as " + input_ScheduledDate);
-			Log.info("User selected schedule date as " + input_ScheduledDate);
+			Screenshots.takeScreenshot(driver, "User selected schedule date");
+			test.log(Status.INFO, "User selected schedule date as");
+			Log.info("User selected schedule date as");
 			Thread.sleep(3000L);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+	
+	public void click_Time() {
+		applyWait.waitForElementToBeClickable(time, DefineConstants.explicitWait_60);
+		javascriptClick.click(time);
+		try {
+			Screenshots.takeScreenshot(driver, "User clicked time button");
+			test.log(Status.INFO, "User clicked time button");
+			Log.info("User clicked time button");		
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+	
+	public void click_FromTime(String hr,String min, String period) {
+		dropDown.selectByVisibleText(fromHr, hr);
+		dropDown.selectByVisibleText(fromHr, min);
+		dropDown.selectByVisibleText(fromHr, period);
+		try {
+			Screenshots.takeScreenshot(driver, "User entered market from timing");
+			test.log(Status.INFO,"User entered market from timing as "+hr+" : "+min+" "+period);
+			Log.info("User entered market from timing as "+hr+" : "+min+" "+period);		
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+	
+	public void click_ToTime(String hr,String min, String period) {
+		dropDown.selectByVisibleText(toHr, hr);
+		dropDown.selectByVisibleText(toHr, min);
+		dropDown.selectByVisibleText(toAmPm, period);
+		javascriptClick.click(apply);
+		try {
+			Screenshots.takeScreenshot(driver, "User entered market to timing");
+			test.log(Status.INFO,"User entered market to timing as "+hr+" : "+min+" "+period);
+			Log.info("User entered market to timing as "+hr+" : "+min+" "+period);		
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+	
+	public void click_UpdateTiming() {
+		applyWait.waitForElementToBeClickable(updateTiming, DefineConstants.explicitWait_60);
+		javascriptClick.click(updateTiming);
+		try {
+			Screenshots.takeScreenshot(driver, "User clicked Update Timing button");
+			test.log(Status.INFO, "User clicked Update Timing button");
+			Log.info("User clicked Update Timing button");		
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+	
+	
+	
+	
+	
+	
 	
 	
 
