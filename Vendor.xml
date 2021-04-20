@@ -19,7 +19,8 @@
 			 <class name="com.kisaan.vendor.testcases.TC_09_Vendor_RemoveProduct"/> 
 			 <class name="com.kisaan.vendor.testcases.TC_10_Vendor_AddNew_SearchProduct"/>  
 			 <class name="com.kisaan.vendor.testcases.TC_11_Vendor_WithdrawNow_Paypal"/>  
-			 <class name="com.kisaan.vendor.testcases.TC_12_Vendor_WithdrawNow_Bank"/>   		 					
+			 <class name="com.kisaan.vendor.testcases.TC_12_Vendor_WithdrawNow_Bank"/>   
+			  <class name="com.kisaan.vendor.testcases.TC_13_Vendor_AddFarmersMarket"/>   		 		 					
 		</classes>
 	</test>
 </suite>

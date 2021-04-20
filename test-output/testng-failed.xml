@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kisaan.admin.testcases.TC_65_Admin_FarmersMarket_UpdateTiming">
+      <class name="com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts">
         <methods>
-          <include name="randomStringGenerate"/>
+          <include name="customer_PlaceOrderMultipleProducts"/>
           <include name="classInstitiate"/>
           <include name="tearDown"/>
-          <include name="admin_FarmersMarket_DeactiveMarket"/>
           <include name="setUp"/>
           <include name="openReport"/>
           <include name="checkResult"/>
         </methods>
-      </class> <!-- com.kisaan.admin.testcases.TC_65_Admin_FarmersMarket_UpdateTiming -->
+      </class> <!-- com.kisaan.customer.testcases.TC_11_Customer_PlaceOrderMultipleProducts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
